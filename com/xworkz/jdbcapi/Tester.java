@@ -7,11 +7,8 @@ public class Tester {
 	static String password = "Lakshmi@88028";
 	static String sqlStatement = "insert into waterfall values(1,'jogfalls','shimogga','abc')";
 	static String updateQuery = "update waterfall set name='myfalls' where id=1;";
-			
-    static String deleteQuery = "delete  from waterfall where id=2;";
+         static String deleteQuery = "delete  from waterfall where id=2;";
     		
-	
-
 	public static void main(String[] args) throws SQLException {
 		Connection connection = null;
 		//Statement createStatement = connection.createStatement();
